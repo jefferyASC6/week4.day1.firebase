@@ -1,0 +1,115 @@
+.navBar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: solid 2px rgb(211, 211, 211);
+}
+
+.blogDisplay{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: solid 2px rgb(211, 211, 211);
+}
+
+.buttonCreate{
+    display: flex;
+    background-color:grey;
+    border:solid 2px darkgrey;
+    justify-content: center;
+    align-items: center;
+    filter: invert(100%);
+    margin: 5px;
+}
+
+.buttonCreate:hover{
+    filter: invert(0%);
+}
+
+.titleDisplay{
+    background-color: darkgrey;
+    border: solid 2px grey;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.nameDisplay{
+    background-color: darkgrey;
+    border: solid 2px grey;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+}
+
+.textDisplay{
+    background-color: darkgrey;
+    border: solid 2px grey;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blogInput{
+    display: flex;
+    /* flex-flow: row wrap; */
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-bottom: solid 2px rgb(211, 211, 211);
+}
+
+.titleInput{
+    background-color: darkgrey;
+    border: solid 2px grey;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nameInput{
+    background-color: darkgrey;
+    border: solid 2px grey;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textInput{
+    background-color: darkgrey;
+    border: solid 2px grey;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.buttonPost{
+    display: flex;
+    background-color:grey;
+    border:solid 2px darkgrey;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 60px;
+    height: 30px;
+    filter: invert(100%);
+    margin: 5px;
+}
+
+.buttonPost:hover{
+    filter: invert(0%);
+}
